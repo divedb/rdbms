@@ -1,0 +1,1 @@
+add_library(parser scan_escape.cc)

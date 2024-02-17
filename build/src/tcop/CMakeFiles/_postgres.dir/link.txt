@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc lib_postgres.a CMakeFiles/_postgres.dir/postgres.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib lib_postgres.a

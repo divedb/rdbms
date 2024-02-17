@@ -1,0 +1,15 @@
+BasedOnStyle: google
+ColumnLimit: 80
+DerivePointerAlignment: false
+PointerAlignment: Left
+AlignConsecutiveMacros: true
+
+IncludeCategories:
+  - Regex:           '^".*\.hpp"'
+    Priority:         2                    # 设置优先级为2（数值越小，优先级越高）
+  - Regex:           '<[^>]*\.h>'
+    Priority:         1                    # 标准库文件优先级设为1
+  - Regex:           '<[^>]*>'
+    Priority:         -1                   # 标准库文件优先级设为-1
+
+SortIncludes: true                         # 开启头文件排序

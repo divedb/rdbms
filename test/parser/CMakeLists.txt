@@ -1,0 +1,1 @@
+add_tests(scan_escape_test)

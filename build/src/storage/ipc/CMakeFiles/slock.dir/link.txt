@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libslock.a CMakeFiles/slock.dir/slock.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libslock.a

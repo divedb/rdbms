@@ -1,0 +1,1 @@
+add_tests(ipc_test slock_test)
