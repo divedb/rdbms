@@ -59,6 +59,8 @@
         "thread": "cpp",
         "__mutex_base": "cpp",
         "chrono": "cpp",
-        "mutex": "cpp"
+        "mutex": "cpp",
+        "*.bak": "c",
+        "variant": "cpp"
     }
 }

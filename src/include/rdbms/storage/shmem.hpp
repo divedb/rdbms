@@ -9,6 +9,7 @@ class ShmemAllocator {
  public:
   // Allocate max-aligned chunk from shared memory.
   // Assumes ShmemLock and ShmemSegHdr are initialized.
+  //
   void* alloc(Size size);
 
  private:
